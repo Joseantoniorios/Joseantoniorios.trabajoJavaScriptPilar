@@ -340,17 +340,17 @@ nav {
  }
 
 .full-screen-portfolio .portfolio-item:hover h1 {
-  transform: translateY(0);
+  transform: translateX(0);
  }
 
 .full-screen-portfolio .portfolio-item p {
   padding-left: 20px;
   font-weight: 300!important;
   letter-spacing: 0.5px;
-  font-size: 14px;
+  font-size: 30px;
   color: rgb(0, 0, 96);
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateX(10px);
   transition: .5s ease-in-out;
   text-transform: uppercase;
  }
@@ -364,7 +364,7 @@ nav {
 
 .full-screen-portfolio .portfolio-item:hover p {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateX(0);
  }
 
 
