@@ -314,23 +314,23 @@ nav {
 
 .portfolio-item .hover-effect .hover-content {
     position: absolute;
-    text-align: left;
+    text-align: right;
     width: 100%;
     bottom: 0;
     left: 0;
 }
 
 
-.full-screen-portfolio .portfolio-item h1 {
+.full-screen-portfolio .portfolio-item h1 p {
   position: relative;
-  font-size: 22px;
+  font-size: 30px;
   text-transform: uppercase;
   color: rgb(0, 0, 96);
   display: inline-block;
   padding-left: 20px;
   line-height: 15px;
-  transform: translateY(25px);
-  transition: .5s ease-in-out;
+  transform: translateX(25px);
+  transition: 1s ease-in-out;
   letter-spacing: 0.5px;
  }
 
