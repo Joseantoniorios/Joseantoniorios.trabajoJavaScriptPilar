@@ -92,7 +92,7 @@ nav {
   position: relative;
   cursor: pointer;
   transition: background 0.8s;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .menu-icon span,
