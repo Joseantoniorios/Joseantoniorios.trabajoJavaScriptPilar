@@ -197,7 +197,9 @@ h6 {
    ========================================================================== */
 .wrapper{
  margin: 0 auto;  
- /*max-width: 1200px;*/  
+ width: 100vw;
+ margin-left: 300px;
+ margin-right: 300px;
  text-align: center;  
 }   
 
