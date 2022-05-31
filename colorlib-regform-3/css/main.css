@@ -74,6 +74,7 @@ html {
 /**
  * A very simple reset that sits on top of Normalize.css.
  */
+
 body,
 h1, h2, h3, h4, h5, h6,
 blockquote, p, pre,
@@ -122,8 +123,8 @@ button {
    #PAGE WRAPPER
    ========================================================================== */
 .page-wrapper {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  /*width: 100vw;*/
   background: url("/img/fondoEjercicios.png");
 }
 
@@ -197,16 +198,12 @@ h6 {
 .wrapper{
  margin: 0 auto;  
  max-width: 1200px;  
+ text-align: center;  
 }   
-
-/*.wrapper {
-  margin: 0 auto;
-  text-align: center;
-}*/
 
 
 .wrapper--w960 {
-  max-width: 1200px;
+  max-width: 960px;
 }
 
 .wrapper--w780 {
